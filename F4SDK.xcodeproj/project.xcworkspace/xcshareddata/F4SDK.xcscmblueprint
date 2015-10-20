@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1AEE598A477D73C036A872AFD67DCBA8036824B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F1AEE598A477D73C036A872AFD67DCBA8036824B" : 0,
+    "D8CA62F6058C8B7FD4A2974B335850BFB206CAD1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D06F940F-FBCC-43BE-BDEE-11A52153D822",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F1AEE598A477D73C036A872AFD67DCBA8036824B" : "GITHubF4SDK\/",
+    "D8CA62F6058C8B7FD4A2974B335850BFB206CAD1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "F4SDK",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "F4SDK.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "42.121.104.184:eva\/enterpriseplusdocs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D8CA62F6058C8B7FD4A2974B335850BFB206CAD1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Kratos28\/F4SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1AEE598A477D73C036A872AFD67DCBA8036824B"
+    }
+  ]
+}
