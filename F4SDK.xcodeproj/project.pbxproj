@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A5B52071A6797FE00CB632B /* F4SDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B52061A6797FE00CB632B /* F4SDK.h */; };
 		0A5B524A1A67981E00CB632B /* SDK_ApiServiceEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52231A67981E00CB632B /* SDK_ApiServiceEngine.m */; };
 		0A5B524B1A67981E00CB632B /* SDK_ApiServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52251A67981E00CB632B /* SDK_ApiServiceRequest.m */; };
 		0A5B524C1A67981E00CB632B /* SDK_ApiServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52271A67981E00CB632B /* SDK_ApiServiceResponse.m */; };
@@ -45,7 +44,6 @@
 				0A730AC41A68F8960059A0BC /* SDK_Runtime.h in CopyFiles */,
 				0A730AC51A68F8960059A0BC /* SDK_DBEngine.h in CopyFiles */,
 				0A730AC61A68F8960059A0BC /* SDK_DBStatement.h in CopyFiles */,
-				0A5B52071A6797FE00CB632B /* F4SDK.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +51,6 @@
 
 /* Begin PBXFileReference section */
 		0A5B52031A6797FE00CB632B /* libF4SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libF4SDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A5B52061A6797FE00CB632B /* F4SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F4SDK.h; sourceTree = "<group>"; };
 		0A5B52141A6797FE00CB632B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5B52221A67981E00CB632B /* SDK_ApiServiceEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ApiServiceEngine.h; sourceTree = "<group>"; };
 		0A5B52231A67981E00CB632B /* SDK_ApiServiceEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ApiServiceEngine.m; sourceTree = "<group>"; };
@@ -76,6 +73,7 @@
 		0A730AD91A68F9CB0059A0BC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		0A730AEA1A68FE800059A0BC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		0B67FA000D26F4805C5847F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		65DAE04D1C7576FF00BF0A5B /* KratosF4SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KratosF4SDK.h; path = KratosF4SDK/KratosF4SDK.h; sourceTree = SOURCE_ROOT; };
 		85A2D08E6BFDD000964DA8DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B8CB3003D234ADE263CDDA7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,8 +112,8 @@
 		0A5B52051A6797FE00CB632B /* F4SDK */ = {
 			isa = PBXGroup;
 			children = (
+				65DAE04D1C7576FF00BF0A5B /* KratosF4SDK.h */,
 				0A5B52201A67981E00CB632B /* engine */,
-				0A5B52061A6797FE00CB632B /* F4SDK.h */,
 			);
 			path = F4SDK;
 			sourceTree = "<group>";
