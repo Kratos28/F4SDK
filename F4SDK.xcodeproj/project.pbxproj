@@ -7,25 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A5B524A1A67981E00CB632B /* SDK_ApiServiceEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52231A67981E00CB632B /* SDK_ApiServiceEngine.m */; };
-		0A5B524B1A67981E00CB632B /* SDK_ApiServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52251A67981E00CB632B /* SDK_ApiServiceRequest.m */; };
-		0A5B524C1A67981E00CB632B /* SDK_ApiServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52271A67981E00CB632B /* SDK_ApiServiceResponse.m */; };
-		0A5B524E1A67981E00CB632B /* SDK_BaseComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B522E1A67981E00CB632B /* SDK_BaseComponent.m */; };
-		0A5B524F1A67981E00CB632B /* SDK_ComponentEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52301A67981E00CB632B /* SDK_ComponentEngine.m */; };
-		0A5B52501A67981E00CB632B /* SDK_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52321A67981E00CB632B /* SDK_Runtime.m */; };
-		0A5B52511A67981E00CB632B /* SDK_DBEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52351A67981E00CB632B /* SDK_DBEngine.m */; };
-		0A5B52521A67981E00CB632B /* SDK_DBStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52371A67981E00CB632B /* SDK_DBStatement.m */; };
-		0A5B525B1A679D7200CB632B /* NSData+SDK_Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B525A1A679D7200CB632B /* NSData+SDK_Encrypt.m */; };
-		0A730ABE1A68F8960059A0BC /* NSData+SDK_Encrypt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B52591A679D7200CB632B /* NSData+SDK_Encrypt.h */; };
-		0A730ABF1A68F8960059A0BC /* SDK_ApiServiceEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B52221A67981E00CB632B /* SDK_ApiServiceEngine.h */; };
-		0A730AC01A68F8960059A0BC /* SDK_ApiServiceRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B52241A67981E00CB632B /* SDK_ApiServiceRequest.h */; };
-		0A730AC11A68F8960059A0BC /* SDK_ApiServiceResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B52261A67981E00CB632B /* SDK_ApiServiceResponse.h */; };
-		0A730AC21A68F8960059A0BC /* SDK_BaseComponent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B522D1A67981E00CB632B /* SDK_BaseComponent.h */; };
-		0A730AC31A68F8960059A0BC /* SDK_ComponentEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B522F1A67981E00CB632B /* SDK_ComponentEngine.h */; };
-		0A730AC41A68F8960059A0BC /* SDK_Runtime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B52311A67981E00CB632B /* SDK_Runtime.h */; };
-		0A730AC51A68F8960059A0BC /* SDK_DBEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B52341A67981E00CB632B /* SDK_DBEngine.h */; };
-		0A730AC61A68F8960059A0BC /* SDK_DBStatement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A5B52361A67981E00CB632B /* SDK_DBStatement.h */; };
 		0A730AEB1A68FE800059A0BC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A730AEA1A68FE800059A0BC /* libPods.a */; };
+		658819411C776D5000CB74C7 /* NSData+SDK_Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6588192D1C776D5000CB74C7 /* NSData+SDK_Encrypt.m */; };
+		658819421C776D5000CB74C7 /* SDK_ApiServiceEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6588192F1C776D5000CB74C7 /* SDK_ApiServiceEngine.m */; };
+		658819431C776D5000CB74C7 /* SDK_ApiServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 658819311C776D5000CB74C7 /* SDK_ApiServiceRequest.m */; };
+		658819441C776D5000CB74C7 /* SDK_ApiServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 658819331C776D5000CB74C7 /* SDK_ApiServiceResponse.m */; };
+		658819451C776D5000CB74C7 /* SDK_BaseComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 658819361C776D5000CB74C7 /* SDK_BaseComponent.m */; };
+		658819461C776D5000CB74C7 /* SDK_ComponentEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 658819381C776D5000CB74C7 /* SDK_ComponentEngine.m */; };
+		658819471C776D5000CB74C7 /* SDK_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6588193A1C776D5000CB74C7 /* SDK_Runtime.m */; };
+		658819481C776D5000CB74C7 /* SDK_DBEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6588193D1C776D5000CB74C7 /* SDK_DBEngine.m */; };
+		658819491C776D5000CB74C7 /* SDK_DBStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6588193F1C776D5000CB74C7 /* SDK_DBStatement.m */; };
+		F60CA9EF5B24A569B3C1DF86 /* libPods-F4SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC35D42C703F7BBC76B9960E /* libPods-F4SDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,15 +27,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0A730ABE1A68F8960059A0BC /* NSData+SDK_Encrypt.h in CopyFiles */,
-				0A730ABF1A68F8960059A0BC /* SDK_ApiServiceEngine.h in CopyFiles */,
-				0A730AC01A68F8960059A0BC /* SDK_ApiServiceRequest.h in CopyFiles */,
-				0A730AC11A68F8960059A0BC /* SDK_ApiServiceResponse.h in CopyFiles */,
-				0A730AC21A68F8960059A0BC /* SDK_BaseComponent.h in CopyFiles */,
-				0A730AC31A68F8960059A0BC /* SDK_ComponentEngine.h in CopyFiles */,
-				0A730AC41A68F8960059A0BC /* SDK_Runtime.h in CopyFiles */,
-				0A730AC51A68F8960059A0BC /* SDK_DBEngine.h in CopyFiles */,
-				0A730AC61A68F8960059A0BC /* SDK_DBStatement.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,30 +35,34 @@
 /* Begin PBXFileReference section */
 		0A5B52031A6797FE00CB632B /* libF4SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libF4SDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5B52141A6797FE00CB632B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A5B52221A67981E00CB632B /* SDK_ApiServiceEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ApiServiceEngine.h; sourceTree = "<group>"; };
-		0A5B52231A67981E00CB632B /* SDK_ApiServiceEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ApiServiceEngine.m; sourceTree = "<group>"; };
-		0A5B52241A67981E00CB632B /* SDK_ApiServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ApiServiceRequest.h; sourceTree = "<group>"; };
-		0A5B52251A67981E00CB632B /* SDK_ApiServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ApiServiceRequest.m; sourceTree = "<group>"; };
-		0A5B52261A67981E00CB632B /* SDK_ApiServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ApiServiceResponse.h; sourceTree = "<group>"; };
-		0A5B52271A67981E00CB632B /* SDK_ApiServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ApiServiceResponse.m; sourceTree = "<group>"; };
-		0A5B522D1A67981E00CB632B /* SDK_BaseComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_BaseComponent.h; sourceTree = "<group>"; };
-		0A5B522E1A67981E00CB632B /* SDK_BaseComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_BaseComponent.m; sourceTree = "<group>"; };
-		0A5B522F1A67981E00CB632B /* SDK_ComponentEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ComponentEngine.h; sourceTree = "<group>"; };
-		0A5B52301A67981E00CB632B /* SDK_ComponentEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ComponentEngine.m; sourceTree = "<group>"; };
-		0A5B52311A67981E00CB632B /* SDK_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_Runtime.h; sourceTree = "<group>"; };
-		0A5B52321A67981E00CB632B /* SDK_Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_Runtime.m; sourceTree = "<group>"; };
-		0A5B52341A67981E00CB632B /* SDK_DBEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_DBEngine.h; sourceTree = "<group>"; };
-		0A5B52351A67981E00CB632B /* SDK_DBEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_DBEngine.m; sourceTree = "<group>"; };
-		0A5B52361A67981E00CB632B /* SDK_DBStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_DBStatement.h; sourceTree = "<group>"; };
-		0A5B52371A67981E00CB632B /* SDK_DBStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_DBStatement.m; sourceTree = "<group>"; };
-		0A5B52591A679D7200CB632B /* NSData+SDK_Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SDK_Encrypt.h"; sourceTree = "<group>"; };
-		0A5B525A1A679D7200CB632B /* NSData+SDK_Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SDK_Encrypt.m"; sourceTree = "<group>"; };
 		0A730AD91A68F9CB0059A0BC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		0A730AEA1A68FE800059A0BC /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		0B67FA000D26F4805C5847F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6588192C1C776D5000CB74C7 /* NSData+SDK_Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SDK_Encrypt.h"; sourceTree = "<group>"; };
+		6588192D1C776D5000CB74C7 /* NSData+SDK_Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SDK_Encrypt.m"; sourceTree = "<group>"; };
+		6588192E1C776D5000CB74C7 /* SDK_ApiServiceEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ApiServiceEngine.h; sourceTree = "<group>"; };
+		6588192F1C776D5000CB74C7 /* SDK_ApiServiceEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ApiServiceEngine.m; sourceTree = "<group>"; };
+		658819301C776D5000CB74C7 /* SDK_ApiServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ApiServiceRequest.h; sourceTree = "<group>"; };
+		658819311C776D5000CB74C7 /* SDK_ApiServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ApiServiceRequest.m; sourceTree = "<group>"; };
+		658819321C776D5000CB74C7 /* SDK_ApiServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ApiServiceResponse.h; sourceTree = "<group>"; };
+		658819331C776D5000CB74C7 /* SDK_ApiServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ApiServiceResponse.m; sourceTree = "<group>"; };
+		658819351C776D5000CB74C7 /* SDK_BaseComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_BaseComponent.h; sourceTree = "<group>"; };
+		658819361C776D5000CB74C7 /* SDK_BaseComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_BaseComponent.m; sourceTree = "<group>"; };
+		658819371C776D5000CB74C7 /* SDK_ComponentEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_ComponentEngine.h; sourceTree = "<group>"; };
+		658819381C776D5000CB74C7 /* SDK_ComponentEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_ComponentEngine.m; sourceTree = "<group>"; };
+		658819391C776D5000CB74C7 /* SDK_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_Runtime.h; sourceTree = "<group>"; };
+		6588193A1C776D5000CB74C7 /* SDK_Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_Runtime.m; sourceTree = "<group>"; };
+		6588193C1C776D5000CB74C7 /* SDK_DBEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_DBEngine.h; sourceTree = "<group>"; };
+		6588193D1C776D5000CB74C7 /* SDK_DBEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_DBEngine.m; sourceTree = "<group>"; };
+		6588193E1C776D5000CB74C7 /* SDK_DBStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_DBStatement.h; sourceTree = "<group>"; };
+		6588193F1C776D5000CB74C7 /* SDK_DBStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK_DBStatement.m; sourceTree = "<group>"; };
+		658819401C776D5000CB74C7 /* KratosF4SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KratosF4SDK.h; sourceTree = "<group>"; };
 		65DAE04D1C7576FF00BF0A5B /* KratosF4SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KratosF4SDK.h; path = KratosF4SDK/KratosF4SDK.h; sourceTree = SOURCE_ROOT; };
+		6B4F462A2F24B7B60921CCCF /* Pods-F4SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F4SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-F4SDK/Pods-F4SDK.release.xcconfig"; sourceTree = "<group>"; };
 		85A2D08E6BFDD000964DA8DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B0EB700B3219822AF5892761 /* Pods-F4SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F4SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-F4SDK/Pods-F4SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		B8CB3003D234ADE263CDDA7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC35D42C703F7BBC76B9960E /* libPods-F4SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-F4SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A730AEB1A68FE800059A0BC /* libPods.a in Frameworks */,
+				F60CA9EF5B24A569B3C1DF86 /* libPods-F4SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +81,8 @@
 		0A5B51FA1A6797FE00CB632B = {
 			isa = PBXGroup;
 			children = (
-				0A5B52051A6797FE00CB632B /* F4SDK */,
+				65DAE04D1C7576FF00BF0A5B /* KratosF4SDK.h */,
+				658819291C776D5000CB74C7 /* KratosF4SDK */,
 				0A5B52121A6797FE00CB632B /* F4SDKTests */,
 				0A5B52041A6797FE00CB632B /* Products */,
 				AF7D7B0EACECA01AE8BF6456 /* Pods */,
@@ -107,15 +96,6 @@
 				0A5B52031A6797FE00CB632B /* libF4SDK.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0A5B52051A6797FE00CB632B /* F4SDK */ = {
-			isa = PBXGroup;
-			children = (
-				65DAE04D1C7576FF00BF0A5B /* KratosF4SDK.h */,
-				0A5B52201A67981E00CB632B /* engine */,
-			);
-			path = F4SDK;
 			sourceTree = "<group>";
 		};
 		0A5B52121A6797FE00CB632B /* F4SDKTests */ = {
@@ -134,63 +114,73 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0A5B52201A67981E00CB632B /* engine */ = {
-			isa = PBXGroup;
-			children = (
-				0A5B52211A67981E00CB632B /* api_service */,
-				0A5B522C1A67981E00CB632B /* core */,
-				0A5B52331A67981E00CB632B /* db */,
-			);
-			path = engine;
-			sourceTree = "<group>";
-		};
-		0A5B52211A67981E00CB632B /* api_service */ = {
-			isa = PBXGroup;
-			children = (
-				0A5B52591A679D7200CB632B /* NSData+SDK_Encrypt.h */,
-				0A5B525A1A679D7200CB632B /* NSData+SDK_Encrypt.m */,
-				0A5B52221A67981E00CB632B /* SDK_ApiServiceEngine.h */,
-				0A5B52231A67981E00CB632B /* SDK_ApiServiceEngine.m */,
-				0A5B52241A67981E00CB632B /* SDK_ApiServiceRequest.h */,
-				0A5B52251A67981E00CB632B /* SDK_ApiServiceRequest.m */,
-				0A5B52261A67981E00CB632B /* SDK_ApiServiceResponse.h */,
-				0A5B52271A67981E00CB632B /* SDK_ApiServiceResponse.m */,
-			);
-			path = api_service;
-			sourceTree = "<group>";
-		};
-		0A5B522C1A67981E00CB632B /* core */ = {
-			isa = PBXGroup;
-			children = (
-				0A5B522D1A67981E00CB632B /* SDK_BaseComponent.h */,
-				0A5B522E1A67981E00CB632B /* SDK_BaseComponent.m */,
-				0A5B522F1A67981E00CB632B /* SDK_ComponentEngine.h */,
-				0A5B52301A67981E00CB632B /* SDK_ComponentEngine.m */,
-				0A5B52311A67981E00CB632B /* SDK_Runtime.h */,
-				0A5B52321A67981E00CB632B /* SDK_Runtime.m */,
-			);
-			path = core;
-			sourceTree = "<group>";
-		};
-		0A5B52331A67981E00CB632B /* db */ = {
-			isa = PBXGroup;
-			children = (
-				0A5B52341A67981E00CB632B /* SDK_DBEngine.h */,
-				0A5B52351A67981E00CB632B /* SDK_DBEngine.m */,
-				0A5B52361A67981E00CB632B /* SDK_DBStatement.h */,
-				0A5B52371A67981E00CB632B /* SDK_DBStatement.m */,
-			);
-			path = db;
-			sourceTree = "<group>";
-		};
 		0DF3576F189B1830A9D4CA4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				0A730AEA1A68FE800059A0BC /* libPods.a */,
 				0A730AD91A68F9CB0059A0BC /* libPods.a */,
 				B8CB3003D234ADE263CDDA7C /* libPods.a */,
+				FC35D42C703F7BBC76B9960E /* libPods-F4SDK.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		658819291C776D5000CB74C7 /* KratosF4SDK */ = {
+			isa = PBXGroup;
+			children = (
+				6588192A1C776D5000CB74C7 /* engine */,
+				658819401C776D5000CB74C7 /* KratosF4SDK.h */,
+			);
+			path = KratosF4SDK;
+			sourceTree = "<group>";
+		};
+		6588192A1C776D5000CB74C7 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				6588192B1C776D5000CB74C7 /* api_service */,
+				658819341C776D5000CB74C7 /* core */,
+				6588193B1C776D5000CB74C7 /* db */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		6588192B1C776D5000CB74C7 /* api_service */ = {
+			isa = PBXGroup;
+			children = (
+				6588192C1C776D5000CB74C7 /* NSData+SDK_Encrypt.h */,
+				6588192D1C776D5000CB74C7 /* NSData+SDK_Encrypt.m */,
+				6588192E1C776D5000CB74C7 /* SDK_ApiServiceEngine.h */,
+				6588192F1C776D5000CB74C7 /* SDK_ApiServiceEngine.m */,
+				658819301C776D5000CB74C7 /* SDK_ApiServiceRequest.h */,
+				658819311C776D5000CB74C7 /* SDK_ApiServiceRequest.m */,
+				658819321C776D5000CB74C7 /* SDK_ApiServiceResponse.h */,
+				658819331C776D5000CB74C7 /* SDK_ApiServiceResponse.m */,
+			);
+			path = api_service;
+			sourceTree = "<group>";
+		};
+		658819341C776D5000CB74C7 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				658819351C776D5000CB74C7 /* SDK_BaseComponent.h */,
+				658819361C776D5000CB74C7 /* SDK_BaseComponent.m */,
+				658819371C776D5000CB74C7 /* SDK_ComponentEngine.h */,
+				658819381C776D5000CB74C7 /* SDK_ComponentEngine.m */,
+				658819391C776D5000CB74C7 /* SDK_Runtime.h */,
+				6588193A1C776D5000CB74C7 /* SDK_Runtime.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		6588193B1C776D5000CB74C7 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				6588193C1C776D5000CB74C7 /* SDK_DBEngine.h */,
+				6588193D1C776D5000CB74C7 /* SDK_DBEngine.m */,
+				6588193E1C776D5000CB74C7 /* SDK_DBStatement.h */,
+				6588193F1C776D5000CB74C7 /* SDK_DBStatement.m */,
+			);
+			path = db;
 			sourceTree = "<group>";
 		};
 		AF7D7B0EACECA01AE8BF6456 /* Pods */ = {
@@ -198,6 +188,8 @@
 			children = (
 				85A2D08E6BFDD000964DA8DE /* Pods.debug.xcconfig */,
 				0B67FA000D26F4805C5847F3 /* Pods.release.xcconfig */,
+				B0EB700B3219822AF5892761 /* Pods-F4SDK.debug.xcconfig */,
+				6B4F462A2F24B7B60921CCCF /* Pods-F4SDK.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -268,7 +260,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-F4SDK/Pods-F4SDK-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A21B6D50E76E4154EE8287A6 /* Check Pods Manifest.lock */ = {
@@ -293,15 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5B524E1A67981E00CB632B /* SDK_BaseComponent.m in Sources */,
-				0A5B524C1A67981E00CB632B /* SDK_ApiServiceResponse.m in Sources */,
-				0A5B524F1A67981E00CB632B /* SDK_ComponentEngine.m in Sources */,
-				0A5B52511A67981E00CB632B /* SDK_DBEngine.m in Sources */,
-				0A5B52521A67981E00CB632B /* SDK_DBStatement.m in Sources */,
-				0A5B524A1A67981E00CB632B /* SDK_ApiServiceEngine.m in Sources */,
-				0A5B524B1A67981E00CB632B /* SDK_ApiServiceRequest.m in Sources */,
-				0A5B525B1A679D7200CB632B /* NSData+SDK_Encrypt.m in Sources */,
-				0A5B52501A67981E00CB632B /* SDK_Runtime.m in Sources */,
+				658819411C776D5000CB74C7 /* NSData+SDK_Encrypt.m in Sources */,
+				658819471C776D5000CB74C7 /* SDK_Runtime.m in Sources */,
+				658819451C776D5000CB74C7 /* SDK_BaseComponent.m in Sources */,
+				658819421C776D5000CB74C7 /* SDK_ApiServiceEngine.m in Sources */,
+				658819441C776D5000CB74C7 /* SDK_ApiServiceResponse.m in Sources */,
+				658819491C776D5000CB74C7 /* SDK_DBStatement.m in Sources */,
+				658819461C776D5000CB74C7 /* SDK_ComponentEngine.m in Sources */,
+				658819481C776D5000CB74C7 /* SDK_DBEngine.m in Sources */,
+				658819431C776D5000CB74C7 /* SDK_ApiServiceRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,13 +376,13 @@
 		};
 		0A5B52181A6797FE00CB632B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85A2D08E6BFDD000964DA8DE /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B0EB700B3219822AF5892761 /* Pods-F4SDK.debug.xcconfig */;
 			buildSettings = {
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -398,13 +390,13 @@
 		};
 		0A5B52191A6797FE00CB632B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B67FA000D26F4805C5847F3 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 6B4F462A2F24B7B60921CCCF /* Pods-F4SDK.release.xcconfig */;
 			buildSettings = {
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
