@@ -4,7 +4,7 @@
 //
 
 #import "SDK_Runtime.h"
-#import "OpenUDID.h"
+//#import "OpenUDID.h"
 #import <UIKit/UIKit.h>
 
 @implementation SDK_Runtime
@@ -21,7 +21,7 @@
 
         _os = [[UIDevice currentDevice] systemName];
         _osVersion = [[UIDevice currentDevice] systemVersion];
-        _udid = [OpenUDID value];
+//        _udid = [OpenUDID value];
     }
     return self;
 }
