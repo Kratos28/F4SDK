@@ -1,0 +1,6 @@
+.idea
+Pods
+Podfile.lock
+*.xcworkspace
+build
+
