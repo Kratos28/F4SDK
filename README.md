@@ -1,1 +1,0 @@
-#KratosF4SDK
