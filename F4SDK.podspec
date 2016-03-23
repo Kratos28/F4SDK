@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.source       =  {:git => 'https://github.com/Kratos28/F4SDK.git', :tag => '1.0.3'}
   spec.source_files = 'F4SDKPublic/**/*.{h,m}'
   spec.requires_arc = true
-  spec.dependency 'AFNetworking', '~> 2.4.1'
-  spec.dependency 'FMDB', '~> 2.4'
-  spec.dependency 'OpenUDID', '~> 1.0.0'
+  spec.dependency 'AFNetworking', '2.4.1'
+  spec.dependency 'FMDB', '2.6'
+  spec.dependency 'OpenUDID', '1.0.0'
 
 end
