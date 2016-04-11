@@ -102,6 +102,7 @@ NSString *const SDK_ApiServiceErrorMessage = @"Api.Service.ErrorMessage";
                                                                                          URLString:_baseUrl
                                                                                         parameters:nil
                                                                                              error:&error];
+            request.timeoutInterval = 30;
 
             if (error != nil)
             {
