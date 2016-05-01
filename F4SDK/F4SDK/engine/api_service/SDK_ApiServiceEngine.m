@@ -32,6 +32,7 @@ NSString *const SDK_ApiServiceErrorMessage = @"Api.Service.ErrorMessage";
     if (self)
     {
         _operationManager = [AFHTTPRequestOperationManager manager];
+        _operationManager.requestSerializer.timeoutInterval = 20;
         _operationManager.requestSerializer = [AFHTTPRequestSerializer serializer];
         _operationManager.responseSerializer = [AFHTTPResponseSerializer serializer];
         _baseUrl = baseUrl;
